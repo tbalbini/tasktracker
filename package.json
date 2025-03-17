@@ -1,21 +1,13 @@
 {
   "name": "tasktracker",
   "version": "1.0.0",
-  "description": "A simple CLI task tracker application",
-  "main": "task-cli.js",
-  "bin": {
-    "task-cli": "./task-cli.js"
-  },
-  "scripts": {
-    "start": "node task-cli.js"
-  },
+  "main": "index.js",
   "type": "module",
-  "keywords": [
-    "cli",
-    "task",
-    "tracker",
-    "todo"
-  ],
-  "author": "Your Name",
-  "license": "MIT"
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
