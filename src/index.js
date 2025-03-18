@@ -78,6 +78,18 @@ async function main() {
 
       case 'global':
         muestraDetalleGlobal().then(x => console.log(x));
+      
+      case 'help':
+        console.log('TaskTracker CLI - Opciones disponibles:');
+        console.log('  add <descripción>          - Agregar una nueva tarea');
+        console.log('  list [estado]              - Listar tareas (opcionales: todo, in-progress, done)');
+        console.log('  delete <id>                - Eliminar una tarea por ID');
+        console.log('  update <id> <descripción>  - Actualizar la descripción de una tarea');
+        console.log('  mark-in-progress <id>      - Marcar una tarea como en progreso');
+        console.log('  mark-done <id>             - Marcar una tarea como completada');
+        console.log('  global                     - Mostrar información global de tareas');
+        console.log('  help                       - Mostrar esta ayuda');
+        break;
 
 
       default:
